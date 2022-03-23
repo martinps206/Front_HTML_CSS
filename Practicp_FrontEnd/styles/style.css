@@ -1,0 +1,326 @@
+body {
+  margin: 0px;
+  font-family: "Be Vietnam";
+}
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: none;
+  height: 174px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 28px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #242e52;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176.1%;
+  cursor: pointer;
+}
+
+#logo {
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+input {
+  margin-top: 15px;
+  margin-right: 150px;
+  background-color: #f3603b;
+  border-radius: 25px;
+  width: 134px;
+  height: 44px;
+  border: none;
+  font-size: 13.18px;
+  color: white;
+  cursor: pointer;
+}
+
+/* baner-blanco */
+#losCuatro {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#losCuatro .fila {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #232851;
+  font-size: 58px;
+  font-weight: 700px;
+  font-style: normal;
+  line-height: 66px;
+  font-weight: bold;
+  align-items: center;
+}
+
+p {
+  position: static;
+  width: 350px;
+  height: 71px;
+  left: 0px;
+  top: 226px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;
+  align-items: center;
+  color: #000000;
+}
+
+h2 {
+  position: static;
+  width: 433px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 114.6%;
+  align-items: center;
+  color: #232851;
+}
+
+h4 {
+  position: static;
+  width: 246px;
+  height: 23px;
+  left: 0px;
+  top: 8.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #323851;
+}
+
+ol {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+ol li p {
+  position: static;
+  width: 458px;
+  height: 104px;
+  left: 0px;
+  top: 49.5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.2984px;
+  line-height: 26px;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #b3b2b7;
+}
+
+/* cards */
+#ch2 {
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tricards {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.imgs img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.imgs h4 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  color: #3f4868;
+}
+
+.imgs p {
+  position: static;
+  width: 403px;
+  height: 78px;
+  left: 0px;
+  top: 137px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 156.6%;
+  color: #b9b9c1;
+  margin: 29px 10px;
+  text-align: center;
+}
+
+#boton {
+  margin-top: 30px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+#boton input {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#prefooter {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3613c;
+  height: 224px;
+  left: 0px;
+  top: 0px;
+}
+
+#prefooter h2 {
+  width: 438px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+  color: #ffffff;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+#input1 {
+  background-color: #ffffff;
+  color: #f3613c;
+  border-radius: 50px;
+  border: none;
+  font-size: 13.18px;
+  margin-top: 90px;
+  margin-right: 150px;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  display: flex;
+  height: 200px;
+  left: 0px;
+  top: 2392px;
+  background: #1e1e26;
+  color: white;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+#iconos {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#iconos img {
+  cursor: pointer;
+}
+
+.listas ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.listas ul a {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.listas li {
+  margin-bottom: 10px;
+}
+
+#input2 {
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  position: static;
+  width: 201px;
+  height: 30px;
+  left: -0.09px;
+  top: 2.26px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 13.1806px;
+  line-height: 19px;
+  color: #a0a0a0;
+  border: none;
+}
+
+#boton2 {
+  margin-right: 150px;
+  align-items: center;
+  padding: 10px;
+  position: static;
+  width: 63px;
+  height: 48px;
+  left: 209.91px;
+  top: 3.26px;
+  background: #f3603b;
+  border-radius: 50px;
+  margin: 0px;
+  border: none;
+  margin-left: 5px;
+}
+
+#reg {
+  display: flex;
+  margin-right: 150px;
+}
+
+#ps {
+  margin-top: 10px;
+  position: absolute;
+  width: 213.85px;
+  height: 19.85px;
+  left: 980px;
+  top: 2500px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 18px;
+  color: #8c8c94;
+}

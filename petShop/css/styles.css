@@ -1,0 +1,248 @@
+/* comodin - todos los elementos */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+/* header - bloque negro */
+header {
+  color: white;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.ofertas p {
+  color: white;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  padding: 5px;
+}
+
+.idioma li a option {
+  color: white;
+  text-decoration: none;
+}
+
+/* nav2 - bloque naranja */
+#contenedor1 li a {
+  color: white;
+  text-decoration: none;
+}
+#contenedor1 {
+  display: flex;
+  background-color: #f0a83e;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 8px;
+}
+
+#contenedor1 img {
+  height: 20px;
+  padding-top: 23px;
+}
+#subcontenedor {
+  display: flex;
+}
+
+#catdog {
+  color: white;
+}
+
+/* baner - bloque verde */
+#bowlandpet {
+  background-image: url("../img/bowl-and-pet.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+  color: #3c2313;
+  text-align: center;
+  position: relative;
+}
+
+#center {
+  top: 40%;
+  left: 65%;
+  position: absolute;
+}
+
+#center h2 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 9px;
+  font-size: 32px;
+  margin: 0px;
+  font-weight: 120;
+}
+
+#bowlandpet button {
+  color: white;
+  background-color: #f0a83e;
+  padding: 15px 23px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* bloque blanco */
+#prodDestacado {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+#prodDestacado h1,
+p {
+  color: #3c2313;
+}
+
+.bloquesImagenes {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.bloquesImagenes p {
+  color: #3c2313;
+}
+
+/* formulario */
+.formulario h2 {
+  color: #cecdcd;
+}
+
+.formulario input {
+  background-color: #3c2313;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 13px;
+  width: 350px;
+  font-size: 9px;
+  border: none;
+}
+
+.formulario #btn1 {
+  background-color: #8a8787;
+  width: 100px;
+  border: none;
+  margin-top: 23px;
+  margin-bottom: 60px;
+}
+
+.formulario #btn2 {
+  background-color: #f0a83e;
+  width: 100px;
+  border: none;
+  margin-top: 23px;
+  margin-bottom: 60px;
+}
+
+/* bloque naranja */
+#contenedor2 {
+  display: flex;
+  background-color: #f0a83e;
+  justify-content: space-between;
+}
+
+#subcontenedor2 {
+  display: flex;
+  color: white;
+  padding-left: 40px;
+}
+
+#input3 {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 13px;
+  border-radius: 13px;
+  margin-top: 9px;
+}
+
+#btn3 {
+  background-color: #3c2313;
+  color: white;
+  padding: 13px;
+  border: none;
+  border-radius: 13px;
+  margin-top: 9px;
+  margin-right: 55px;
+}
+
+.antesNav {
+  background-color: #3c2313;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 60px;
+}
+
+#logo2 {
+  display: flex;
+}
+footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+}
+#logo2 img {
+  height: 20px;
+  padding-top: 23px;
+}
+#logo2 #catdog {
+  color: #f0a83e;
+}
+
+footer p {
+  margin: 0px;
+}
+
+#derecha {
+  display: flex;
+  margin: 20px;
+}
+
+#derecha img {
+  margin-right: 25px;
+}
+
+#derecha h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: 0px;
+  padding: 5px;
+}
+
+#derecha p {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8a8787;
+  margin: 0px;
+  padding: 5px;
+}
